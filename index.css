@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#rgbColorInfo{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(67, 67, 121);
+    font-size: 0.8rem;
+
+}
+
+.div-submit{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    height: 100px;
+}
+
+.submit{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(67, 67, 121);
+    justify-self: center;
+    align-self: center;
+}
+
+.submit:hover{
+
+    background-color: rgb(67, 67, 121);
+    border-width: 3px;
+    /* border-color: white; */
+    color: white;
+    font-weight: 500;
+    
+
+}
+#color-list li{
+
+    height: 30px;
+    width: 500px;
+    border-style: solid;
+    list-style: none;
+    margin-top: 1px;
+
+}
+
